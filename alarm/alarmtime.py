@@ -2,7 +2,7 @@ import subprocess
 import time
 
 def playsound():
-    file_path="/Users/azmilmohammed/Desktop/projects/alarm.mp3"
+    file_path="...../alarm.mp3"
     subprocess.run(["afplay", file_path])
     input("Hello:")
     exit
