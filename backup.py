@@ -4,9 +4,9 @@ import datetime
 import schedule
 import time
 
-source_dir = "/Users/azmilmohammed/Desktop/Chess"
+source_dir = "SOURCE DIRECTORY YOU WANNA BACKUP FROM"
 
-destination_dir = "/Users/azmilmohammed/Documents/kali"
+destination_dir = "DESTINATION DIRECTORY YOU WANNA BACKUP TO"
 
 def copy_folder_to_directory(source,dest):
     today = datetime.date.today()
